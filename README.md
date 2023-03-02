@@ -22,14 +22,14 @@ python3 Renyi_variance_test.py  $alpha $run_num $dim $Lrate $method $IC_activati
 
 Input arguments:
 
-1) The value of alpha 
-2) The current run number (so results from multiple runs won't overwrite each other)
+1) The value of alpha
+2) The current run number (so results from multiple runs are saved in separate files)
 3) The dimension of the Gaussians Q and P.
 4) Learning rate (Adam optimizer)
 5) The method name (DV_Renyi or inf_conv_Renyi)
 6) The final activation layer for the inf_conv_Renyi method (currently implemented options are abs, elu, relu, polysoftplus but the user can add their own: the requirement is that the output must be <=0) 
-7) Set to 1 to use rescaled Renyi (i.e., alpha*R_alpha
-8) separation between the mean of Q and the mean of P 
+7) Set to 1 to use rescaled Renyi (i.e., alpha*R_alpha)
+8) Separation between the mean of Q and the mean of P. 
 
 
 Notes: 
