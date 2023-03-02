@@ -1,6 +1,6 @@
 # RenyiNeuralEstimation
 Neural-network estimation of the Renyi divergence, R_alpha(Q||P), between two n-dimensional Gaussians Q and P via 2 different methods
-1) Renyi-Donsker-Varadhan (DV) method from Variational Representations and Neural Network Estimation for Renyi Divergences,  SIAM Journal on Mathematics of Data Science}, 2021
+1) Renyi-Donsker-Varadhan (DV) method from Variational Representations and Neural Network Estimation for Renyi Divergences,  SIAM Journal on Mathematics of Data Science, 2021
 2) infimal-convolution method from Function-space regularized Renyi divergences, ICLR 2023
 
 
