@@ -6,8 +6,6 @@ Neural-network estimation of the Renyi divergence, R_alpha, between two n-dimens
 
 Sample usage:
 
-#!/bin/bash
-
 alpha=2
 run_num=1
 dim=1000
