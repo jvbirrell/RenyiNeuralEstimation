@@ -93,8 +93,7 @@ if rescaled==1:
     alpha_scaling=alpha
 
 
-#Exact R_alpha(P||Q): note there is a typo in the paper "Renyi Divergence Measures for Commonly Used Univariate Continuous Distributions":
-#Sigma_alpha->Sigma_alpha^{-1} in first term
+#Exact R_alpha(P||Q)
 Renyi_exact=1.0/2.0*np.matmul(np.transpose(mu_q-mu_p),np.matmul(np.linalg.inv(Sigma_alpha),mu_q-mu_p))-1.0/(2.0*alpha*(alpha-1.0))*np.math.log(np.linalg.det(Sigma_alpha)/(np.math.pow(np.linalg.det(Sigma_p),1.0-alpha)*np.math.pow(np.linalg.det(Sigma_q),alpha)))
 divergence_exact=alpha_scaling*Renyi_exact[0][0]
 
